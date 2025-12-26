@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "serve -s .",
-    "build": "mkdir -p build && cp index.html build/ && cp App.jsx build/ || true"
+    "build": "mkdir -p public && cp index.html public/ && (cp App.jsx public/ || true)"
   },
   "dependencies": {
     "serve": "^14.0.0"
