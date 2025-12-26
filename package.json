@@ -1,1 +1,10 @@
-"build": "mkdir -p public && cp index.html public/ && (cp App.jsx public/ || true) && (cp style.css public/ || true)"
+{
+  "name": "chat-pro-t",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -s public",
+    "build": "mkdir -p public && cp index.html public/ && (cp App.jsx public/ || true) && (cp style.css public/ || true)"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
