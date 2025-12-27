@@ -1,6 +1,5 @@
 {
-  "cleanUrls": true,
-  "framework": "vite",
+  "version": 2,
   "rewrites": [
     {
       "source": "/(.*)",
