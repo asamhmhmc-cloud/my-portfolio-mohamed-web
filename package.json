@@ -6,6 +6,7 @@
     "build": "mkdir -p public && cp index.html public/ && (cp App.jsx public/ || true) && (cp style.css public/ || true)"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "serve": "^14.0.0"
   }
 }
